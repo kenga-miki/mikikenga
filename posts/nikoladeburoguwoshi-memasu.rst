@@ -1,4 +1,4 @@
-.. title: nikolaでブログを始めます
+.. title: title
 .. slug: nikoladeburoguwoshi-memasu
 .. date: 2019-05-26 17:42:25 UTC+09:00
 .. tags: 
