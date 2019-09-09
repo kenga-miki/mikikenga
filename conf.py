@@ -217,9 +217,9 @@ THEME_CONFIG = {
 
 POSTS = (
     ("posts/*.rst", "posts", "post.tmpl"),
-    ("posts/*.md", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
-    ("posts/*.html", "posts", "post.tmpl"),
+    # ("posts/*.md", "posts", "post.tmpl"),
+    # ("posts/*.txt", "posts", "post.tmpl"),
+    # ("posts/*.html", "posts", "post.tmpl"),
 )
 PAGES = (
     ("pages/*.rst", "pages", "page.tmpl"),
@@ -288,17 +288,17 @@ TIMEZONE = "Asia/Tokyo"
 # 'html' assumes the file is HTML and just copies it
 COMPILERS = {
     "rest": ('.rst', '.txt'),
-    "markdown": ('.md', '.mdown', '.markdown'),
-    "textile": ('.textile',),
-    "txt2tags": ('.t2t',),
-    "bbcode": ('.bb',),
-    "wiki": ('.wiki',),
-    "ipynb": ('.ipynb',),
-    "html": ('.html', '.htm'),
+    # "markdown": ('.md', '.mdown', '.markdown'),
+    # "textile": ('.textile',),
+    # "txt2tags": ('.t2t',),
+    # "bbcode": ('.bb',),
+    # "wiki": ('.wiki',),
+    # "ipynb": ('.ipynb',),
+    # "html": ('.html', '.htm'),
     # PHP files are rendered the usual way (i.e. with the full templates).
     # The resulting files have .php extensions, making it possible to run
     # them without reconfiguring your server to recognize them.
-    "php": ('.php',),
+    # "php": ('.php',),
     # Pandoc detects the input from the source filename
     # but is disabled by default as it would conflict
     # with many of the others.
@@ -1294,7 +1294,7 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # Add the absolute paths to directories containing themes to use them.
 # For example, the `v7` directory of your clone of the Nikola themes
 # repository.
-# EXTRA_THEMES_DIRS = []
+EXTRA_THEMES_DIRS = [kenken]
 
 # List of regular expressions, links matching them will always be considered
 # valid by "nikola check -l"
