@@ -1294,7 +1294,7 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # Add the absolute paths to directories containing themes to use them.
 # For example, the `v7` directory of your clone of the Nikola themes
 # repository.
-EXTRA_THEMES_DIRS = [kenken]
+EXTRA_THEMES_DIRS = ["kenken"]
 
 # List of regular expressions, links matching them will always be considered
 # valid by "nikola check -l"
