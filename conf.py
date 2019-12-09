@@ -152,7 +152,7 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootblog4"
+THEME = "kenken"
 
 # Primary color of your theme. This will be used to customize your theme.
 # Must be a HEX value.
@@ -1294,8 +1294,8 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # Add the absolute paths to directories containing themes to use them.
 # For example, the `v7` directory of your clone of the Nikola themes
 # repository.
-EXTRA_THEMES_DIRS = ["kenken"]
-
+EXTRA_THEMES_DIRS = ["themes"]
+NIKOLA_DEBUG = 1
 # List of regular expressions, links matching them will always be considered
 # valid by "nikola check -l"
 # LINK_CHECK_WHITELIST = []

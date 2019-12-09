@@ -1,0 +1,2 @@
+engine = jinja
+parent = base-jinja
